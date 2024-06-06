@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		944CFE6C2C101280001942DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944CFE6B2C101280001942DA /* AppDelegate.swift */; };
+		944CFE6E2C101280001942DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944CFE6D2C101280001942DA /* SceneDelegate.swift */; };
+		944CFE702C101280001942DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944CFE6F2C101280001942DA /* ViewController.swift */; };
+		944CFE732C101280001942DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944CFE712C101280001942DA /* Main.storyboard */; };
+		944CFE752C101283001942DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 944CFE742C101283001942DA /* Assets.xcassets */; };
+		944CFE782C101283001942DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944CFE762C101283001942DA /* LaunchScreen.storyboard */; };
+		944CFE832C101283001942DA /* LKArcBannerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944CFE822C101283001942DA /* LKArcBannerDemoTests.swift */; };
+		944CFE8D2C101283001942DA /* LKArcBannerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944CFE8C2C101283001942DA /* LKArcBannerDemoUITests.swift */; };
+		944CFE8F2C101283001942DA /* LKArcBannerDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944CFE8E2C101283001942DA /* LKArcBannerDemoUITestsLaunchTests.swift */; };
+		944CFEA22C1014FA001942DA /* ArcBannerVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944CFE9F2C1014FA001942DA /* ArcBannerVc.swift */; };
+		944CFEA32C1014FA001942DA /* WriterArcBannerCollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944CFEA02C1014FA001942DA /* WriterArcBannerCollCell.swift */; };
+		944CFEA42C1014FA001942DA /* WriterArcBannerCollCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 944CFEA12C1014FA001942DA /* WriterArcBannerCollCell.xib */; };
+		9495C95D2C11A98600EC542F /* LKArcBanner in Frameworks */ = {isa = PBXBuildFile; productRef = 9495C95C2C11A98600EC542F /* LKArcBanner */; };
+		94B0435A2C1055BC00E70D2C /* LKArcBanner in Frameworks */ = {isa = PBXBuildFile; productRef = 94B043592C1055BC00E70D2C /* LKArcBanner */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		944CFE7F2C101283001942DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 944CFE602C101280001942DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 944CFE672C101280001942DA;
+			remoteInfo = LKArcBannerDemo;
+		};
+		944CFE892C101283001942DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 944CFE602C101280001942DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 944CFE672C101280001942DA;
+			remoteInfo = LKArcBannerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		944CFE682C101280001942DA /* LKArcBannerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKArcBannerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		944CFE6B2C101280001942DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		944CFE6D2C101280001942DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		944CFE6F2C101280001942DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		944CFE722C101280001942DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		944CFE742C101283001942DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		944CFE772C101283001942DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		944CFE792C101283001942DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		944CFE7E2C101283001942DA /* LKArcBannerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKArcBannerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		944CFE822C101283001942DA /* LKArcBannerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKArcBannerDemoTests.swift; sourceTree = "<group>"; };
+		944CFE882C101283001942DA /* LKArcBannerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKArcBannerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		944CFE8C2C101283001942DA /* LKArcBannerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKArcBannerDemoUITests.swift; sourceTree = "<group>"; };
+		944CFE8E2C101283001942DA /* LKArcBannerDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKArcBannerDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		944CFE9F2C1014FA001942DA /* ArcBannerVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArcBannerVc.swift; sourceTree = "<group>"; };
+		944CFEA02C1014FA001942DA /* WriterArcBannerCollCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WriterArcBannerCollCell.swift; sourceTree = "<group>"; };
+		944CFEA12C1014FA001942DA /* WriterArcBannerCollCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WriterArcBannerCollCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		944CFE652C101280001942DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9495C95D2C11A98600EC542F /* LKArcBanner in Frameworks */,
+				94B0435A2C1055BC00E70D2C /* LKArcBanner in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944CFE7B2C101283001942DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944CFE852C101283001942DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		944CFE5F2C101280001942DA = {
+			isa = PBXGroup;
+			children = (
+				944CFE6A2C101280001942DA /* LKArcBannerDemo */,
+				944CFE812C101283001942DA /* LKArcBannerDemoTests */,
+				944CFE8B2C101283001942DA /* LKArcBannerDemoUITests */,
+				944CFE692C101280001942DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		944CFE692C101280001942DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				944CFE682C101280001942DA /* LKArcBannerDemo.app */,
+				944CFE7E2C101283001942DA /* LKArcBannerDemoTests.xctest */,
+				944CFE882C101283001942DA /* LKArcBannerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		944CFE6A2C101280001942DA /* LKArcBannerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				944CFE9E2C1014E3001942DA /* Example-iOS */,
+				944CFE6B2C101280001942DA /* AppDelegate.swift */,
+				944CFE6D2C101280001942DA /* SceneDelegate.swift */,
+				944CFE6F2C101280001942DA /* ViewController.swift */,
+				944CFE712C101280001942DA /* Main.storyboard */,
+				944CFE742C101283001942DA /* Assets.xcassets */,
+				944CFE762C101283001942DA /* LaunchScreen.storyboard */,
+				944CFE792C101283001942DA /* Info.plist */,
+			);
+			path = LKArcBannerDemo;
+			sourceTree = "<group>";
+		};
+		944CFE812C101283001942DA /* LKArcBannerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				944CFE822C101283001942DA /* LKArcBannerDemoTests.swift */,
+			);
+			path = LKArcBannerDemoTests;
+			sourceTree = "<group>";
+		};
+		944CFE8B2C101283001942DA /* LKArcBannerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				944CFE8C2C101283001942DA /* LKArcBannerDemoUITests.swift */,
+				944CFE8E2C101283001942DA /* LKArcBannerDemoUITestsLaunchTests.swift */,
+			);
+			path = LKArcBannerDemoUITests;
+			sourceTree = "<group>";
+		};
+		944CFE9E2C1014E3001942DA /* Example-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				944CFE9F2C1014FA001942DA /* ArcBannerVc.swift */,
+				944CFEA02C1014FA001942DA /* WriterArcBannerCollCell.swift */,
+				944CFEA12C1014FA001942DA /* WriterArcBannerCollCell.xib */,
+			);
+			path = "Example-iOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		944CFE672C101280001942DA /* LKArcBannerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 944CFE922C101283001942DA /* Build configuration list for PBXNativeTarget "LKArcBannerDemo" */;
+			buildPhases = (
+				944CFE642C101280001942DA /* Sources */,
+				944CFE652C101280001942DA /* Frameworks */,
+				944CFE662C101280001942DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LKArcBannerDemo;
+			packageProductDependencies = (
+				94B043592C1055BC00E70D2C /* LKArcBanner */,
+				9495C95C2C11A98600EC542F /* LKArcBanner */,
+			);
+			productName = LKArcBannerDemo;
+			productReference = 944CFE682C101280001942DA /* LKArcBannerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		944CFE7D2C101283001942DA /* LKArcBannerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 944CFE952C101283001942DA /* Build configuration list for PBXNativeTarget "LKArcBannerDemoTests" */;
+			buildPhases = (
+				944CFE7A2C101283001942DA /* Sources */,
+				944CFE7B2C101283001942DA /* Frameworks */,
+				944CFE7C2C101283001942DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				944CFE802C101283001942DA /* PBXTargetDependency */,
+			);
+			name = LKArcBannerDemoTests;
+			productName = LKArcBannerDemoTests;
+			productReference = 944CFE7E2C101283001942DA /* LKArcBannerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		944CFE872C101283001942DA /* LKArcBannerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 944CFE982C101283001942DA /* Build configuration list for PBXNativeTarget "LKArcBannerDemoUITests" */;
+			buildPhases = (
+				944CFE842C101283001942DA /* Sources */,
+				944CFE852C101283001942DA /* Frameworks */,
+				944CFE862C101283001942DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				944CFE8A2C101283001942DA /* PBXTargetDependency */,
+			);
+			name = LKArcBannerDemoUITests;
+			productName = LKArcBannerDemoUITests;
+			productReference = 944CFE882C101283001942DA /* LKArcBannerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		944CFE602C101280001942DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					944CFE672C101280001942DA = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					944CFE7D2C101283001942DA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 944CFE672C101280001942DA;
+					};
+					944CFE872C101283001942DA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 944CFE672C101280001942DA;
+					};
+				};
+			};
+			buildConfigurationList = 944CFE632C101280001942DA /* Build configuration list for PBXProject "LKArcBannerDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 944CFE5F2C101280001942DA;
+			packageReferences = (
+				9495C95B2C11A98600EC542F /* XCRemoteSwiftPackageReference "LKArcBanner" */,
+			);
+			productRefGroup = 944CFE692C101280001942DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				944CFE672C101280001942DA /* LKArcBannerDemo */,
+				944CFE7D2C101283001942DA /* LKArcBannerDemoTests */,
+				944CFE872C101283001942DA /* LKArcBannerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		944CFE662C101280001942DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944CFE782C101283001942DA /* LaunchScreen.storyboard in Resources */,
+				944CFE752C101283001942DA /* Assets.xcassets in Resources */,
+				944CFE732C101280001942DA /* Main.storyboard in Resources */,
+				944CFEA42C1014FA001942DA /* WriterArcBannerCollCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944CFE7C2C101283001942DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944CFE862C101283001942DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		944CFE642C101280001942DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944CFE702C101280001942DA /* ViewController.swift in Sources */,
+				944CFEA22C1014FA001942DA /* ArcBannerVc.swift in Sources */,
+				944CFE6C2C101280001942DA /* AppDelegate.swift in Sources */,
+				944CFE6E2C101280001942DA /* SceneDelegate.swift in Sources */,
+				944CFEA32C1014FA001942DA /* WriterArcBannerCollCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944CFE7A2C101283001942DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944CFE832C101283001942DA /* LKArcBannerDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944CFE842C101283001942DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944CFE8D2C101283001942DA /* LKArcBannerDemoUITests.swift in Sources */,
+				944CFE8F2C101283001942DA /* LKArcBannerDemoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		944CFE802C101283001942DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 944CFE672C101280001942DA /* LKArcBannerDemo */;
+			targetProxy = 944CFE7F2C101283001942DA /* PBXContainerItemProxy */;
+		};
+		944CFE8A2C101283001942DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 944CFE672C101280001942DA /* LKArcBannerDemo */;
+			targetProxy = 944CFE892C101283001942DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		944CFE712C101280001942DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				944CFE722C101280001942DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		944CFE762C101283001942DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				944CFE772C101283001942DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		944CFE902C101283001942DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		944CFE912C101283001942DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		944CFE932C101283001942DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR4JUG3LWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LKArcBannerDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hello.LKSpeech.LKArcBannerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		944CFE942C101283001942DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR4JUG3LWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LKArcBannerDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hello.LKSpeech.LKArcBannerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		944CFE962C101283001942DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR4JUG3LWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hello.LKSpeech.LKArcBannerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKArcBannerDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LKArcBannerDemo";
+			};
+			name = Debug;
+		};
+		944CFE972C101283001942DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR4JUG3LWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hello.LKSpeech.LKArcBannerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKArcBannerDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LKArcBannerDemo";
+			};
+			name = Release;
+		};
+		944CFE992C101283001942DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR4JUG3LWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hello.LKSpeech.LKArcBannerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LKArcBannerDemo;
+			};
+			name = Debug;
+		};
+		944CFE9A2C101283001942DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR4JUG3LWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hello.LKSpeech.LKArcBannerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LKArcBannerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		944CFE632C101280001942DA /* Build configuration list for PBXProject "LKArcBannerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944CFE902C101283001942DA /* Debug */,
+				944CFE912C101283001942DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		944CFE922C101283001942DA /* Build configuration list for PBXNativeTarget "LKArcBannerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944CFE932C101283001942DA /* Debug */,
+				944CFE942C101283001942DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		944CFE952C101283001942DA /* Build configuration list for PBXNativeTarget "LKArcBannerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944CFE962C101283001942DA /* Debug */,
+				944CFE972C101283001942DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		944CFE982C101283001942DA /* Build configuration list for PBXNativeTarget "LKArcBannerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944CFE992C101283001942DA /* Debug */,
+				944CFE9A2C101283001942DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9495C95B2C11A98600EC542F /* XCRemoteSwiftPackageReference "LKArcBanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RS-Li/LKArcBanner.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9495C95C2C11A98600EC542F /* LKArcBanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9495C95B2C11A98600EC542F /* XCRemoteSwiftPackageReference "LKArcBanner" */;
+			productName = LKArcBanner;
+		};
+		94B043592C1055BC00E70D2C /* LKArcBanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LKArcBanner;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 944CFE602C101280001942DA /* Project object */;
+}
