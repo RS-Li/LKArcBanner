@@ -31,8 +31,8 @@ class LKArcBannerCollectionViewCell: UICollectionViewCell {
             make.center.equalToSuperview()
         }
         
-        bringSubviewToFront(contentImgView)
-        bringSubviewToFront(indexLab)
+        self.bringSubviewToFront(contentImgView)
+        self.bringSubviewToFront(indexLab)
         
         layer.borderWidth = 5.0
         layer.cornerRadius = self.frame.size.height / 2.0

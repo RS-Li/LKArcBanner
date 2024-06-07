@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LKArcBanner"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "Swift实现圆弧形轮播选择菜单"
 
   # This description is used to generate tags and improve search results.
@@ -25,6 +25,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+                         Swift arc select menu
+                         ①支持上弦弧形
+                         ②支持下弦弧形
+                         ③支持水平缩放
                    DESC
 
   spec.homepage     = "https://github.com/RS-Li/LKArcBanner"
@@ -38,7 +42,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (LICENSE)"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -52,10 +56,10 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "李荣生" => "3171638690@qq.com" }
-  # Or just: spec.author    = "李荣生"
-  # spec.authors            = { "李荣生" => "3171638690@qq.com" }
-  # spec.social_media_url   = "https://twitter.com/李荣生"
+  spec.author             = { "李棒棒" => "3171638690@qq.com" }
+  # Or just: spec.author    = "李棒棒"
+  # spec.authors            = { "李棒棒" => "3171638690@qq.com" }
+  # spec.social_media_url   = "https://twitter.com/李棒棒"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -64,10 +68,10 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
-
+  # spec.platform     = :ios, "12.0"
+    spec.swift_version = '5.0'
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
+    spec.ios.deployment_target = "12.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -91,9 +95,11 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Sources/"
-  spec.exclude_files = "Classes/Exclude"
+    spec.source_files  = ["Sources/**/*.swift"]
 
+  # spec.exclude_files = "Classes/Exclude"
+    spec.frameworks  = "Foundation","UIKit"
+    spec.dependency "SnapKit", "~> 5.0.1"
   # spec.public_header_files = "Classes/**/*.h"
 
 
