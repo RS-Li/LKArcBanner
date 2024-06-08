@@ -55,7 +55,7 @@ open class LKArcCollectionViewFlowLayout: UICollectionViewFlowLayout {
         
         if let attributesArr = attributesArr {
             
-            for (index,attrs) in attributesArr.enumerated() {
+            for (_,attrs) in attributesArr.enumerated() {
                 
                 switch slideStyle {
                     
@@ -111,7 +111,7 @@ open class LKArcCollectionViewFlowLayout: UICollectionViewFlowLayout {
         
         var minDelta:CGFloat = CGFloat(MAXFLOAT)
         if let attributesArr = attributesArr {
-            for (index,attri) in attributesArr.enumerated() {
+            for (_,attri) in attributesArr.enumerated() {
                 if abs(minDelta) > abs(attri.center.x - centerX) {
                     minDelta = attri.center.x - centerX
                 }
